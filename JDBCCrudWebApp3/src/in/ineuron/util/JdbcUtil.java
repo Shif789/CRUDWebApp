@@ -42,7 +42,7 @@ public class JdbcUtil {
 
 	public static Connection physicalJdbcConnection() throws FileNotFoundException, IOException, SQLException {
 		// get connection data from properties file
-    	String fileLoc="C:\\Users\\user-pc\\Desktop\\Self-Learning\\GitSession\\Servlet\\JDBCCrudWebApp3\\src\\in\\ineuron\\properties\\application.properties";
+    	String fileLoc="C:\\Users\\user-pc\\git\\repository3\\JDBCCrudWebApp3\\src\\in\\ineuron\\properties\\application.properties";
         FileInputStream fis = new FileInputStream(fileLoc);
         Properties properties = new Properties();
         properties.load(fis);
